@@ -12,3 +12,6 @@ jobs:
               run: npm ci
             - name: Build
               run: npm run build
+              runs:
+              using: 'node20'
+              main: 'main.js'
